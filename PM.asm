@@ -214,7 +214,7 @@ MAIN PROC
 
 	ANDA_B_INI:	
 	XOR DI,DI
-	ADD DI,32			;Inicia verificação dentro do mapa(pexel 1,1)
+	ADD DI,31			;Inicia verificação dentro do mapa(pexel 1,1)
 	MOV PIVO_X,16
 	MOV PIVO_Y,16	
 	
@@ -386,7 +386,7 @@ DIRECTION PROC
 	
 RIGHT PROC
 	RIGHT_2:
-	CMP MAPA_01[DI],15			;Compara se a cor que está em AL é = 15 (branco)	
+	CMP MAPA_01[DI+1],15			;Compara se a cor que está em AL é = 15 (branco)	
 	JE SAI_RIGHT_2
 	
 		ANDA_BLOCO_D:
@@ -407,14 +407,13 @@ RIGHT PROC
 	INT 21h
 	JZ RIGHT_2
 	SAI_RIGHT_2:
-	SUB DI,2
 	CALL DIRECTION
 
 	RIGHT ENDP
 	
 LEFT PROC
 	LEFT_2:
-	CMP MAPA_01[DI],15				;Compara se a cor que está em AL é = 15 (branco)
+	CMP MAPA_01[DI-1],15				;Compara se a cor que está em AL é = 15 (branco)
 	
 	JE SAI_LEFT_2							
 		ANDA_BLOCO_E:
@@ -435,45 +434,60 @@ LEFT PROC
 	INT 21h
 	JZ LEFT_2
 	SAI_LEFT_2:
-	ADD DI,2
 	CALL DIRECTION
 
 	LEFT ENDP
 	
 UP PROC
 	UP_2:
-	MOV QTD_LINHA,15
-	MOV QTD_COLUNA,16
-	LEA SI,FANT_R		
-	CALL PRINT	
-	;INC CONT
-	SUB PIVO_Y,1
-	;CMP CONT,80
+	CMP MAPA_01[DI-30],15			;Compara se a cor que está em AL é = 15 (branco)	
+	JE SAI_UP_2
+	
+		ANDA_BLOCO_C:
+		MOV QTD_LINHA,15
+		MOV QTD_COLUNA,16	
+		LEA SI,FANT_R
+		CALL PRINT			
+		SUB PIVO_Y,1
+		INC CONT
+		CMP	CONT,16
+		JNE  ANDA_BLOCO_C       ;Termina desenho do fantasma
+		
+		MOV CONT,0			
+		SUB DI,30					;Checagem termina dentro do branco
+		
 	MOV AH,06h		; seek for an input
 	MOV DL,0FFh
 	INT 21h
 	JZ UP_2
+	SAI_UP_2:
 	CALL DIRECTION
-	EXIT_UP:
-	JMP FINAL
 	UP ENDP
 	
 DOWN PROC
 	DOWN_2:
-	MOV QTD_LINHA,15
-	MOV QTD_COLUNA,16
-	LEA SI,FANT_R		
-	CALL PRINT	
-	;INC CONT
-	ADD PIVO_Y,1
-	;CMP CONT,80
+	CMP MAPA_01[DI+30],15			;Compara se a cor que está em AL é = 15 (branco)	
+	JE SAI_DOWN_2
+	
+		ANDA_BLOCO_B:
+		MOV QTD_LINHA,15
+		MOV QTD_COLUNA,16	
+		LEA SI,FANT_R
+		CALL PRINT			
+		ADD PIVO_Y,1
+		INC CONT
+		CMP	CONT,16
+		JNE  ANDA_BLOCO_B       ;Termina desenho do fantasma
+		
+		MOV CONT,0			
+		ADD DI,30					;Checagem termina dentro do branco
+		
 	MOV AH,06h		; seek for an input
 	MOV DL,0FFh
 	INT 21h
 	JZ DOWN_2
+	SAI_DOWN_2:
 	CALL DIRECTION
-	EXIT_DOWN:
-	JMP FINAL
 	DOWN ENDP
 
 
