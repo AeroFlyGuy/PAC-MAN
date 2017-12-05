@@ -15,9 +15,9 @@ MAPA_01     DB 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 1
 			DB 15, 00, 15, 15, 15, 15, 00, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 00, 15, 15, 15, 15, 00, 15
 			DB 15, 00, 15, 15, 15, 15, 00, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 00, 15, 15, 15, 15, 00, 15
 			DB 15, 00, 00, 00, 15, 15, 00, 15, 15, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 15, 15, 00, 15, 15, 00, 00, 00, 15
-			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 00, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
-			DB 15, 15, 15, 00, 00, 00, 00, 00, 00, 00, 15, 15, 15, 15, 00, 00, 00, 15, 15, 15, 00, 00, 00, 00, 00, 00, 00, 15, 15, 15
-			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 00, 00, 00, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
+			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 00, 00, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
+			DB 15, 15, 15, 00, 00, 00, 00, 00, 00, 00, 15, 15, 00, 00, 00, 00, 00, 00, 15, 15, 00, 00, 00, 00, 00, 00, 00, 15, 15, 15
+			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
 			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
 			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
 			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
@@ -46,9 +46,9 @@ MAPA_01_AUX DB 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 1
 			DB 15, 00, 15, 15, 15, 15, 00, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 00, 15, 15, 15, 15, 00, 15
 			DB 15, 00, 15, 15, 15, 15, 00, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 00, 15, 15, 15, 15, 00, 15
 			DB 15, 00, 00, 00, 15, 15, 00, 15, 15, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 15, 15, 00, 15, 15, 00, 00, 00, 15
-			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 00, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
-			DB 15, 15, 15, 00, 00, 00, 00, 00, 00, 00, 15, 15, 15, 15, 00, 00, 00, 15, 15, 15, 00, 00, 00, 00, 00, 00, 00, 15, 15, 15
-			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 00, 00, 00, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
+			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 00, 00, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
+			DB 15, 15, 15, 00, 00, 00, 00, 00, 00, 00, 15, 15, 00, 00, 00, 00, 00, 00, 15, 15, 00, 00, 00, 00, 00, 00, 00, 15, 15, 15
+			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
 			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
 			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
 			DB 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 00, 15, 15, 15
@@ -64,6 +64,69 @@ MAPA_01_AUX DB 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 1
 			DB 15, 00, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 00, 15, 15, 00, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 00, 15
 			DB 15, 02, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 15
 			DB 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+			
+GAME_OVER	DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			
+YOU_WIN		DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			DB 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+			
 			
 SCORE_NAME	DB 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00
 			DB 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00
@@ -884,10 +947,10 @@ QTD_COLUNA_AUX	DW ?
 COR 	 	DB 0
 
 			;	 X    Y      DI    Direcao	Proxima dir PAC
-PIVOS		DW	224,  224,   434,	  4				;Fantasma rosa		
-			DW  240,  224,	 435,	  4				;Fantasma azul
-			DW  256,  224,	 436,	  4				;Fantasma vermelho
-			DW	240,  208,	 405,	  4				;Fantasma marrom	
+PIVOS		DW	272,  208,	 407,	  4				;Fantasma rosa		
+			DW  240,  208,	 405,	  4				;Fantasma azul
+			DW  224,  208,	 404,	  4				;Fantasma vermelho
+			DW	192,  208,	 402,	  4				;Fantasma marrom	
 			DW  240,  256,   495,	  5  	  ,5    ;PAC
 
 CONT		DW	0
@@ -931,6 +994,9 @@ BKCONT		DW  0
 PONTOS		DW	0
 VIDA 		DW  3
 
+
+QUAL_FANT_MORREU DW 0
+TEMPO_FANT_MORTO DW 0
 .CODE
 
 MAIN PROC
@@ -1034,28 +1100,38 @@ MAIN PROC
 	
 	START:
 	
+	MOV PIVOS [0],272
+	MOV PIVOS [2],208    
+	MOV PIVOS [4],407
+	MOV PIVOS [6],5
+		
 	MOV PIVOS [8],240
 	MOV PIVOS [10],208    
 	MOV PIVOS [12],405
-	MOV PIVOS [14],4
-		
-	MOV PIVOS [16],240
+	MOV PIVOS [14],5
+	
+	MOV PIVOS [16],224
 	MOV PIVOS [18],208    
-	MOV PIVOS [20],405
-	MOV PIVOS [22],4
+	MOV PIVOS [20],404
+	MOV PIVOS [22],5
 	
-	MOV PIVOS [24],240
+	MOV PIVOS [24],192
 	MOV PIVOS [26],208    
-	MOV PIVOS [28],405
-	MOV PIVOS [30],4
+	MOV PIVOS [28],402
+	MOV PIVOS [30],5
 	
-	MOV PIVOS [24],240
-	MOV PIVOS [26],208    
-	MOV PIVOS [28],405
-	MOV PIVOS [30],4
+	MOV PIVOS [32],240
+	MOV PIVOS [34],256    
+	MOV PIVOS [36],495
+	MOV PIVOS [38],5
+
 	
-
-
+	MOV QTD_LINHA,15
+	MOV QTD_COLUNA,16
+	MOV PIVO_X,240
+	MOV PIVO_Y,256	
+	LEA SI,PAC
+	CALL PRINT
 	
 ANDA:
 	CMP CONT,17
@@ -1090,31 +1166,32 @@ ANDA:
 	JMP FIN_ANDA
 	
 	FANT_LENTO:		
-		CMP REDUZ_VELO,2
-		JNE PRINTA_PAC
+		; CMP REDUZ_VELO,2
+		; JNE PRINTA_PAC
 		
-		CMP CONT_MORTOS,17
-		JE ZERA_CONT_MORTOS
+		; CMP CONT_MORTOS,17
+		; JE ZERA_CONT_MORTOS
 		
-		JMP BKCONT_ORIGINAL
+		; JMP BKCONT_ORIGINAL
 		
-		ZERA_CONT_MORTOS:
-		MOV CONT_MORTOS,0
+		; ZERA_CONT_MORTOS:
+		; MOV CONT_MORTOS,0
 		
-		BKCONT_ORIGINAL:
-		MOV AX,CONT
-		MOV BKCONT,AX
+		; BKCONT_ORIGINAL:
+		; MOV AX,CONT
+		; MOV BKCONT,AX
 		
-		CMP CONT_MORTOS,15
-		JAE ATERA_CONT
-			MOV CONT,0		
-			JMP CONTINUA		
+		; CMP CONT_MORTOS,15
+		; JAE ATERA_CONT
+			; MOV CONT,0		
+			; JMP CONTINUA		
 		
-		ATERA_CONT:
-			MOV AX,CONT_MORTOS
-			MOV CONT,AX
+		; ATERA_CONT:
+			; MOV AX,CONT_MORTOS
+			; MOV CONT,AX
 	
-		CONTINUA:
+		; CONTINUA:
+		
 		MOV SI_PIV,0	
 		LEA SI,FANT_LENT
 		MOV SI_FANT,SI
@@ -1125,21 +1202,23 @@ ANDA:
 		MOV SI_FANT,SI
 		CALL DIRECTION
 	
+		MOV SI_PIV,24	
+		LEA SI,FANT_LENT
+		MOV SI_FANT,SI
+		CALL DIRECTION
+	
 		MOV SI_PIV,16
 		LEA SI,FANT_LENT
 		MOV SI_FANT,SI
 		CALL DIRECTION
 	
-		MOV SI_PIV,24	
-		LEA SI,FANT_LENT
-		MOV SI_FANT,SI
-		CALL DIRECTION
+
 		
-		INC CONT_MORTOS
-		MOV REDUZ_VELO,0
+		; INC CONT_MORTOS
+		; MOV REDUZ_VELO,0
 	    		
-		MOV AX,BKCONT
-		MOV CONT,AX
+		; MOV AX,BKCONT
+		; MOV CONT,AX
 		
 	PRINTA_PAC:
 		INC REDUZ_VELO		
@@ -1154,8 +1233,15 @@ ANDA:
 	FIN_ANDA:
 	MOV CONT,0
 	CALL SCORE
+	INC TEMPO_FANT_MORTO
+	CMP TEMPO_FANT_MORTO,30	
+	JE RESETA_SUPER_PILL
+	
 	JMP	ANDA
 	
+	RESETA_SUPER_PILL:
+	MOV SUPER_PILL,0	
+	JMP ANDA
 	FINAL_PROGRAMA:
 	JMP FINAL
 	
@@ -1216,7 +1302,52 @@ DIRECTION PROC
 	
 
 	
-	MUDA_DIR:
+	
+	
+	
+MUDA_DIR:	
+
+	
+	CMP QUAL_FANT_MORREU,1
+	JNE FANT1
+	MOV PIVOS [0],272
+	MOV PIVOS [2],208     
+	MOV PIVOS [4],407
+	MOV PIVOS [6],5
+	JMP VERIFICA_PAC
+	
+	FANT1:
+	CMP QUAL_FANT_MORREU,2
+	JNE FANT2
+	MOV PIVOS [8],240
+	MOV PIVOS [10],208   
+	MOV PIVOS [12],405
+	MOV PIVOS [14],5
+	JMP VERIFICA_PAC
+	
+	FANT2:
+	CMP QUAL_FANT_MORREU,3
+	JNE FANT3
+	MOV PIVOS [16],224
+	MOV PIVOS [18],208   
+	MOV PIVOS [20],404
+	MOV PIVOS [22],5
+	JMP VERIFICA_PAC
+	
+	FANT3:
+	CMP QUAL_FANT_MORREU,4
+	JNE VERIFICA_PAC
+	MOV PIVOS [24],192
+	MOV PIVOS [26],208    
+	MOV PIVOS [28],402
+	MOV PIVOS [30],5
+	JMP VERIFICA_PAC
+
+	
+	
+	
+	VERIFICA_PAC:
+	
 			;************************************************
 			;                pac
 			CMP SI_PIV,32 
@@ -1228,6 +1359,7 @@ DIRECTION PROC
 			MOV AX,PIVOS[SI+4]
 			MOV DI,AX
 			CMP	MAPA_01_AUX[DI],02
+			;MOV MAPA_01_AUX[DI],01
 			JE	SUPER			
 			
 			CALL MOVIMENTA_PAC
@@ -1239,11 +1371,10 @@ DIRECTION PROC
 			SUPER:
 			MOV MAPA_01_AUX[DI],0
 			MOV SUPER_PILL,1	
-			MOV REDUZ_VELO,0	
+			MOV REDUZ_VELO,0
+			MOV TEMPO_FANT_MORTO,0			
 			
-
-
-			
+			JMP MOVIMENTA
 			
 			;***********************************************
 	
@@ -1484,7 +1615,11 @@ DIRECTION PROC
 	;RET
 	
 	COMPARA_COLISAO:; Colisão entre fantas e PAC
-
+	CMP	CONT,15
+	JE CONTINUAA
+	RET
+	CONTINUAA:
+		
 	MOV AX,PIVOS[4]		;Fantasma rosa
 	CMP PIVOS[36],AX
 	JE COLIDIU_R
@@ -1499,30 +1634,23 @@ DIRECTION PROC
 	
 	MOV AX,PIVOS[28] 	;Fantasma marrom
 	CMP PIVOS[36],AX
-	JE COLIDIU_M	
+	JE COLIDIU_M
+	
+	RET
 
-	RET	
+	
 	COLIDIU_R:
 	CMP SUPER_PILL,1
-	JNE JMP_PERDE_VIDA
-	
+	JNE PERDE_VIDA	
 	ADD PONTOS,100
-	MOV PIVOS [0],240
-	MOV PIVOS [2],224     
-	MOV PIVOS [4],436
-	MOV PIVOS [6],4
+	MOV QUAL_FANT_MORREU,1
 	RET
-	JMP_PERDE_VIDA:
-	JMP PERDE_VIDA
 	
 	COLIDIU_A:
 	CMP SUPER_PILL,1
 	JNE PERDE_VIDA
 	ADD PONTOS,100
-	MOV PIVOS [8],240
-	MOV PIVOS [10],208    
-	MOV PIVOS [12],405
-	MOV PIVOS [14],4
+	MOV QUAL_FANT_MORREU,2
 	RET
 	
 	
@@ -1530,10 +1658,7 @@ DIRECTION PROC
 	CMP SUPER_PILL,1
 	JNE PERDE_VIDA
 	ADD PONTOS,100
-	MOV PIVOS [16],240
-	MOV PIVOS [18],208    
-	MOV PIVOS [20],405
-	MOV PIVOS [22],4
+	MOV QUAL_FANT_MORREU,3
 	RET
 	
 	
@@ -1541,11 +1666,9 @@ DIRECTION PROC
 	CMP SUPER_PILL,1
 	JNE PERDE_VIDA
 	ADD PONTOS,100
-	MOV PIVOS [24],240
-	MOV PIVOS [26],208    
-	MOV PIVOS [28],405
-	MOV PIVOS [30],4
+	MOV QUAL_FANT_MORREU,4
 	RET	
+	
 
 	PERDE_VIDA:
 	CMP VIDA,0
@@ -1570,7 +1693,8 @@ DIRECTION PROC
 	LEA SI,PAC_LIVE_DEL
 	CALL PRINT
 	DEC VIDA
-	JMP START
+	JMP APAGA_PERSONAGENS
+
 	
 	VIDA_2:
 	MOV QTD_LINHA,32
@@ -1580,7 +1704,7 @@ DIRECTION PROC
 	LEA SI,PAC_LIVE_DEL
 	CALL PRINT
 	DEC VIDA
-	JMP START
+	JMP APAGA_PERSONAGENS
 
 	VIDA_1:
 	MOV QTD_LINHA,32
@@ -1590,10 +1714,68 @@ DIRECTION PROC
 	LEA SI,PAC_LIVE_DEL
 	CALL PRINT
 	DEC VIDA
+	JMP APAGA_PERSONAGENS
+	
+	
+	
+	APAGA_PERSONAGENS:
+	MOV PIVOS[38],5
+	MOV PIVOS[40],5
+	
+	
+	MOV QTD_LINHA,15
+	MOV QTD_COLUNA,16
+	
+	MOV AX,PIVOS[0]
+	MOV PIVO_X,AX
+	MOV AX,PIVOS[2]
+	MOV PIVO_Y,AX
+	LEA SI,BLOCO_P
+	CALL PRINT
+	
+	MOV QTD_LINHA,15
+	MOV QTD_COLUNA,16
+	
+	MOV AX,PIVOS[8]
+	MOV PIVO_X,AX
+	MOV AX,PIVOS[10]
+	MOV PIVO_Y,AX
+	LEA SI,BLOCO_P
+	CALL PRINT
+	
+	MOV QTD_LINHA,15
+	MOV QTD_COLUNA,16
+	
+	MOV AX,PIVOS[16]
+	MOV PIVO_X,AX
+	MOV AX,PIVOS[18]
+	MOV PIVO_Y,AX
+	LEA SI,BLOCO_P
+	CALL PRINT
+	
+	MOV QTD_LINHA,15
+	MOV QTD_COLUNA,16
+	
+	MOV AX,PIVOS[24]
+	MOV PIVO_X,AX
+	MOV AX,PIVOS[26]
+	MOV PIVO_Y,AX
+	LEA SI,BLOCO_P
+	CALL PRINT
+	
+	MOV QTD_LINHA,15
+	MOV QTD_COLUNA,16
+	
+	MOV AX,PIVOS[32]
+	MOV PIVO_X,AX
+	MOV AX,PIVOS[34]
+	MOV PIVO_Y,AX
+	LEA SI,BLOCO_S_P
+	CALL PRINT
+	
 	JMP START
 	
-	;Mensagem que perdeu 
-	;Mostra pontuação etc
+
 	
 	DIRECTION ENDP
 
@@ -2138,32 +2320,71 @@ RECEBE_TECLA PROC
 RECEBE_TECLA ENDP	
 
 PRINTA_SUPER_PI PROC
-	MOV QTD_LINHA,15
-	MOV QTD_COLUNA,16
-	MOV PIVO_X,16
-	MOV PIVO_Y,16	
-	LEA SI,BLOCO_SPIL		
-	CALL PRINT
+
 	
 	MOV QTD_LINHA,15
 	MOV QTD_COLUNA,16
-	MOV PIVO_X,448
-	MOV PIVO_Y,16	
-	LEA SI,BLOCO_SPIL	
+	MOV PIVO_X,16
+	MOV PIVO_Y,16
+	
+	CMP MAPA_01_AUX[31],01
+	JE SEM_SUPER_P1
+	LEA SI,BLOCO_SPIL
+	JMP PRINT1
+	
+	SEM_SUPER_P1:	
+	LEA SI,BLOCO_S_P
+	PRINT1:
 	CALL PRINT
+	
+	
+
+	MOV QTD_LINHA,15
+	MOV QTD_COLUNA,16
+	MOV PIVO_X,448
+	MOV PIVO_Y,16
+	
+	CMP MAPA_01_AUX[58],01
+	JE SEM_SUPER_P2
+	LEA SI,BLOCO_SPIL
+	JMP PRINT2
+	
+	SEM_SUPER_P2:	
+	LEA SI,BLOCO_S_P
+	PRINT2:
+	CALL PRINT
+	
+	
 
 	MOV QTD_LINHA,15
 	MOV QTD_COLUNA,16
 	MOV PIVO_X,16
-	MOV PIVO_Y,448	
-	LEA SI,BLOCO_SPIL	
+	MOV PIVO_Y,448
+	
+	CMP MAPA_01_AUX[841],01
+	JE SEM_SUPER_P3
+	LEA SI,BLOCO_SPIL
+	JMP PRINT3
+	
+	SEM_SUPER_P3:	
+	LEA SI,BLOCO_S_P
+	PRINT3:
 	CALL PRINT
 	
+
 	MOV QTD_LINHA,15
 	MOV QTD_COLUNA,16
 	MOV PIVO_X,448
 	MOV PIVO_Y,448	
-	LEA SI,BLOCO_SPIL	
+	
+	CMP MAPA_01_AUX[868],01
+	JE SEM_SUPER_P4
+	LEA SI,BLOCO_SPIL
+	JMP PRINT4
+	
+	SEM_SUPER_P4:	
+	LEA SI,BLOCO_S_P
+	PRINT4:
 	CALL PRINT
 
 	
@@ -2182,7 +2403,7 @@ SCORE PROC
 	TROCA:
 	MOV	MAPA_01_AUX[DI], 01
 	INC PONTOS
-	CALL	PRINTA_SCORE
+	CALL PRINTA_SCORE
 	
 	FIM_SCORE:
 	RET
@@ -2313,6 +2534,93 @@ RET
 PRINTA_SCORE ENDP
 
 FINAL:
+	CMP PONTOS, 340
+	JE	YOU_WIN_PRINT
+
+	LEA DI,GAME_OVER
+	MOV PIVO_X,0
+	MOV PIVO_Y,0
+
+	YOU_LOSE_PRINT:
+	
+	CMP PIVO_Y,480		;Verifica se a ultima linha do mapa foi printada
+	JE	FIM_LOSE_PRINT
+	
+	MOV QTD_LINHA,15	;Tamanho do bloco (16x16)
+	MOV QTD_COLUNA,16	;
+	
+	CMP PIVO_X,480		;Verifica se ultimo bloco da linha foi printado
+	JE	PROX_LINHA1		;
+	JMP PROSEGUE1		;
+						;
+	PROX_LINHA1:			;Se foi incrementa 16 pixels no pivo_y e zera o pivo_x, com isso começa printar o proximo bloco na linha de baixo
+	MOV PIVO_X,0		;
+	ADD PIVO_Y,16		;	
+	
+	PROSEGUE1:			
+	MOV AL,[DI]
+	INC DI	 
+	MOV AH,0	
+	CMP AL,0			;Verifica cor que está em DI
+	JE PX_BRA1
+	
+	LEA SI,BLOCO_S_P		
+	CALL PRINT
+	ADD PIVO_X,16
+	JMP YOU_LOSE_PRINT
+	
+	PX_BRA1:	
+	LEA SI,BLOCO_B
+	CALL PRINT
+	ADD PIVO_X,16	
+	JMP YOU_LOSE_PRINT
+	
+	FIM_LOSE_PRINT:
+	JMP	FIM_WIN_PRINT
+	
+	YOU_WIN_PRINT:
+	
+	LEA DI,YOU_WIN
+	MOV PIVO_X,0
+	MOV PIVO_Y,0
+	
+	YOU_WIN_PRINT_AUX:
+	
+	CMP PIVO_Y,480		;Verifica se a ultima linha do mapa foi printada
+	JE	FIM_WIN_PRINT
+	
+	MOV QTD_LINHA,15	;Tamanho do bloco (16x16)
+	MOV QTD_COLUNA,16	;
+	
+	CMP PIVO_X,480		;Verifica se ultimo bloco da linha foi printado
+	JE	PROX_LINHA2		;
+	JMP PROSEGUE2		;
+						;
+	PROX_LINHA2:			;Se foi incrementa 16 pixels no pivo_y e zera o pivo_x, com isso começa printar o proximo bloco na linha de baixo
+	MOV PIVO_X,0		;
+	ADD PIVO_Y,16		;	
+	
+	PROSEGUE2:			
+	MOV AL,[DI]
+	INC DI	 
+	MOV AH,0	
+	CMP AL,0			;Verifica cor que está em DI
+	JE PX_BRA2
+	
+	LEA SI,BLOCO_S_P		
+	CALL PRINT
+	ADD PIVO_X,16
+	JMP YOU_WIN_PRINT_AUX
+	
+	PX_BRA2:	
+	LEA SI,BLOCO_B
+	CALL PRINT
+	ADD PIVO_X,16	
+	JMP YOU_WIN_PRINT_AUX
+	
+	FIM_WIN_PRINT:
+	
+
 	
 MOV AH,4CH
 INT 21H
